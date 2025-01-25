@@ -4,7 +4,7 @@ export default function CartModal() {
   const isCartEmpty = false
 
   return (
-    <div className='w-max absolute top-10 right-0 shadow-[0px_10px_10px_rgb(0,0,0,0.2)] z-20 p-4 rounded-md '>
+    <div className='w-max absolute top-10 right-0 shadow-[0px_10px_10px_rgb(0,0,0,0.2)] z-50 p-4 rounded-md bg-white'>
       {isCartEmpty ? (
         <div>Cart is empty</div>
       ) : (
