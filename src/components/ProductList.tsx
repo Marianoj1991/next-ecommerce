@@ -5,7 +5,7 @@ export default function ProductList() {
   return (
     <div className='mt-12 flex gap-x-8 gap-y-16 justify-between flex-wrap'>
       <Link
-        href='/test'
+        href='/single-product'
         className='w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]'
       >
         <div className='relative w-full h-80'>
@@ -25,14 +25,16 @@ export default function ProductList() {
           />
         </div>
         <div className='flex justify-between'>
-          <span className='font-medium' >Product Name</span>
+          <span className='font-medium'>Product Name</span>
           <span className='font-semibold'>$45</span>
         </div>
         <div className='text-sm text-gray-500'>My Description</div>
-        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>Add to Cart</button>
+        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>
+          Add to Cart
+        </button>
       </Link>
       <Link
-        href='/test'
+        href='/single-product'
         className='w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]'
       >
         <div className='relative w-full h-80'>
@@ -52,14 +54,16 @@ export default function ProductList() {
           />
         </div>
         <div className='flex justify-between'>
-          <span className='font-medium' >Product Name</span>
+          <span className='font-medium'>Product Name</span>
           <span className='font-semibold'>$45</span>
         </div>
         <div className='text-sm text-gray-500'>My Description</div>
-        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>Add to Cart</button>
+        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>
+          Add to Cart
+        </button>
       </Link>
       <Link
-        href='/test'
+        href='/single-product'
         className='w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]'
       >
         <div className='relative w-full h-80'>
@@ -79,14 +83,16 @@ export default function ProductList() {
           />
         </div>
         <div className='flex justify-between'>
-          <span className='font-medium' >Product Name</span>
+          <span className='font-medium'>Product Name</span>
           <span className='font-semibold'>$45</span>
         </div>
         <div className='text-sm text-gray-500'>My Description</div>
-        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>Add to Cart</button>
+        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>
+          Add to Cart
+        </button>
       </Link>
       <Link
-        href='/test'
+        href='/single-product'
         className='w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]'
       >
         <div className='relative w-full h-80'>
@@ -106,11 +112,13 @@ export default function ProductList() {
           />
         </div>
         <div className='flex justify-between'>
-          <span className='font-medium' >Product Name</span>
+          <span className='font-medium'>Product Name</span>
           <span className='font-semibold'>$45</span>
         </div>
         <div className='text-sm text-gray-500'>My Description</div>
-        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>Add to Cart</button>
+        <button className='w-max px-4 py-3 rounded-2xl ring-1 ring-rosa-chicle hover:bg-rosa-chicle hover:text-white transition-all ease-linear duration-300'>
+          Add to Cart
+        </button>
       </Link>
     </div>
   )

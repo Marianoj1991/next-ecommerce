@@ -49,11 +49,11 @@ export default function Slider() {
       <div className='w-max h-full flex transition-all ease-in-out duration-1000' style={{transform: `translateX(-${current * 100}vw)`}}>
         {slides.map((slide) => (
           <div
-            className={`${slide.bg} w-screen h-full flex flex-col gap-16 xl:flex-row`}
+            className={`${slide.bg} w-screen h-full flex flex-col gap-16 lg:flex-row`}
             key={slide.id}
           >
             {/* TEXT CONTAINER */}
-            <div className='h-1/2 xl:h-full xl:w-1/2 flex flex-col items-center justify-center text-center gap-8 transition-all ease-in-out duration-300'>
+            <div className='h-1/2 lg:h-full lg:w-1/2 flex flex-col items-center justify-center text-center gap-8 transition-all ease-in-out duration-300'>
               <h2 className='text-xl lg:text-3xl 2xl:text-5xl'>
                 {slide.description}
               </h2>
@@ -67,12 +67,12 @@ export default function Slider() {
               </Link>
             </div>
             {/* IMAGE CONTAINER */}
-            <div className='h-1/2 xl:w-1/2 xl:h-full relative'>
+            <div className='h-1/2 lg:w-1/2 lg:h-full relative'>
               <Image
                 src={slide.img}
                 alt='Slide image'
                 fill
-                sizes='100%'  
+                sizes='100%'
                 className='object-cover'
               />
             </div>
